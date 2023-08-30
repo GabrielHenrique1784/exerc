@@ -1,0 +1,31 @@
+.header {
+    background-color: #ddd;
+    text-align: center;
+    color: blueviolet;
+    padding: 1rem;
+}
+
+.flex-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    min-width: 265px;
+    flex: 4;
+    background-image: url(https://www.planocritico.com/wp-content/uploads/2023/07/Oppenheimerplanocritico.jpg);
+}
+
+
+.flex-container {
+
+    flex-wrap: wrap;
+    display: flex;
+    gap: 18px;
+    padding: 18px;
+}
+
+.footer { 
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 1rem; 
+    } 
+    
